@@ -294,17 +294,14 @@ ol {
 }
 
 /*Чем ми занимаемся*/
-.list {
-  display: flex;
-  margin-top: 50px;
-}
+
 .box {
   margin-right: 30px;
   width: 370px;
   height: 294px;
 }
 .list:last-child {
-  margin-right: 0px;
+  margin-right: 50px;
 }
 
 .title {
@@ -397,6 +394,11 @@ ol {
   margin-bottom: 9px;
 }
 
+.aside:hover,
+.aside:focus {
+  color: var(--accent-color);
+}
+
 .aside-contact {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -408,6 +410,25 @@ ol {
   margin-bottom: 9px;
 }
 
+.aside-contact:hover,
+.aside-contact:focus {
+  color: var(--accent-color);
+}
+
+.aside {
+  margin-top: 20px;
+}
+
+.logo {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  color: var(--accent-color);
+}
 .logo-footer {
-  color: #ffffff;
+  color: var(--third-text-color);
 }

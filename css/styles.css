@@ -262,7 +262,7 @@ ol {
   width: 270px;
 }
 
-.features: :last-child {
+.features:last-child {
   margin-right: 0px;
 }
 
@@ -462,6 +462,11 @@ ol {
 .section {
   padding: 94px 0;
 }
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
 .portfolio {
   width: 1200px;
   margin-left: auto;
@@ -474,7 +479,11 @@ ol {
   display: flex;
   flex-wrap: wrap;
 }
-
+.product-card {
+  margin: var(--card-list-gap);
+  flex-basis: calc(100% / 3-2 * var(--card-list-gap))
+  flex-basis: calc((100%-90px) / 3);
+}
 .card-content {
   padding: 20px 24px;
   border: var(--card-border);

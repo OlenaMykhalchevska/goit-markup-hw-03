@@ -12,10 +12,7 @@ body {
   background-color: var(--third-text-color);
   color: var(main-text-color);
   font-family: "Roboto", sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  
 }
 img {
   display: block;
@@ -51,6 +48,7 @@ ol {
 .link {
   text-decoration: none;
 }
+ 
 .container {
   width: 1200px;
   margin-left: auto;
@@ -88,7 +86,7 @@ ol {
   display: flex;
   align-items: center;
 }
-  
+
 .header {
   display: flex;
   align-items: center;
@@ -106,10 +104,10 @@ ol {
   padding-bottom: 32px;
   display: block;
   letter-spacing: 0.02em;
-  margin-left: 50px;
+  margin-left: auto;
 }
 .nav-list-item {
-  margin-left: 50px;
+  margin-left: auto;
 }
 .nav-list-item:first-child {
   margin-left: 0;
@@ -155,16 +153,9 @@ ol {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-left: auto;
   color: var(--main-text-color);
+  margin-left: 20px ;
 }
-.contact-adress.item+.item {
-  margin-left: 50px;
-}
-.contact-number.item+.item {
-  margin-left: 50px;
-}    
-
 .contact-adress:hover,
 .contact-adress:focus {
   color: var(--accent-color);
@@ -173,8 +164,18 @@ ol {
 .contact-number:hover,
 .contact-number:focus {
   color: var(--accent-color);
+  
 }
- 
+
+.header-contacts {
+  display: flex;
+}
+.header-contacts {
+  margin-left: auto;
+}    
+.header-contacts.item+.item {
+  margin-left: 50px
+}
 
 /*раздел Героя*/
 .hero {
@@ -238,7 +239,7 @@ ol {
 }
 
 /*Преимущества*/
-.list {
+.advantages-content {
   display: flex;
 }
 
@@ -277,14 +278,17 @@ ol {
 }
 
 /*Чем ми занимаемся*/
-
+.boxes {
+  display: flex;
+  margin-top: 50px;
+}
 .box {
   margin-right: 30px;
   width: 370px;
   height: 294px;
 }
-.list:last-child {
-  margin-right: 50px;
+.boxest:last-child {
+  margin-right: 0px;
 }
 
 .title {
@@ -364,6 +368,8 @@ ol {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .aside {

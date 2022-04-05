@@ -12,10 +12,7 @@ body {
   background-color: var(--third-text-color);
   color: var(main-text-color);
   font-family: "Roboto", sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px; 
+  
 }
 img {
   display: block;
@@ -23,6 +20,7 @@ img {
 ul,
 li {
   list-style: none;
+  margin-bottom: 9px;
 }
 a {
   text-decoration: none;
@@ -71,7 +69,7 @@ ol {
   width: 145px;
   height: 31px;
   margin-left: auto;
-  margin-right: 93px;
+  margin-right: 45px;
 }
 .logo-header {
   font-family: "Raleway",sans-serif;
@@ -353,7 +351,11 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
- 
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .footer-address-map {
   font-family: "Roboto", sans-serif;
@@ -379,7 +381,7 @@ header {
   line-height: 1.71;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 9px;
+  
 }
 
 .footer-address:hover,
@@ -389,8 +391,6 @@ header {
 .container.footer {
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .contacts {
   margin-top: 20px;
@@ -415,8 +415,7 @@ header {
 .footer-contacts {
   margin: 0;
 }
-
-
+ 
 /*Фильтри*/
 .button-secondary {
   cursor: pointer;
